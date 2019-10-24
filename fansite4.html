@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Fansite.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet"> 
+</head>
+<body id="contact-body">
+	<header>
+		<img id="header-logo" src="https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_%C3%89quipe_France_Football_2018.svg/679px-Logo_%C3%89quipe_France_Football_2018.svg.png">
+		<ul id="header-ul">
+			<li class="header-li"><a class="header-a" href="fansite1.html">Actualité</a></li>
+			<li class="header-li"><a class="header-a" href="fansite3.html">Palmares</a></li>
+			<li class="header-li"><a class="header-a" href="fansite2.html">Galerie</a></li>
+			<li class="header-li"><a class="header-a" href="fansite4.html">Contact</a></li>
+		</ul>		
+	</header>
+	<main id="contact-main">
+		<form>
+			<h1 id="contact-titre">Nous contacter</h1>
+
+			<label for="nom" class="contact-label">Nom :</label><input class="contact-inp" id="nom" type="text" name="nom" placeholder="MonNom" required autofocus >
+			<br>
+			<label for="Prenom" class="contact-label">Prenom :</label><input class="contact-inp" id="Prenom" type="text" name="Prenom" placeholder="MonPrenom" required >
+			<br>
+			<label for="mail" class="contact-label">Em@il :</label><input class="contact-inp" id="mail" type="mail" name="mail" placeholder="MonMail@mail.com" required >
+			<br>
+			<label for="motif" class="contact-label" >Motife :</label>
+			<select class="contact-inp" id="motif" name="motif" required >
+				<option>Devenire membre</option>
+				<option>Se pleindre </option>
+				<option>Autre</option>	
+			</select>
+			<br>
+			<label class="contact-label" for="message">Message :</label>
+			<br>
+			<textarea id="message" class="" name="message" placeholder="Votre message"   rows="15" cols="50" required ></textarea>
+			<br>
+			<input id="contact-inp" type="submit">
+		</form>
+	</main>
+	<footer>
+		<h1 id="footer-h1">Copyright 2019 FFF | By Mustapha & Etienne </h1>
+		<section id="footer-section">
+			<a href=""><img class="footer-img" src="image/facebook.png"></a>
+			<a href=""><img class="footer-img" src="image/twitter.png"></a>
+			<a href=""><img class="footer-img" src="image/insta.png"></a>
+			<a href=""><img class="footer-img" src="image/youtube.png"></a>
+		</section>
+	</footer>
+
+</body>
+</html>

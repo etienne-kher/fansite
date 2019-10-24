@@ -1,0 +1,371 @@
+body{
+	margin: 0;
+}
+
+header{
+	display: flex;
+	background: linear-gradient(114deg, rgba(8,49,255,1) 0%, rgba(130,167,245,1) 40%, rgba(249,225,225,1) 64%, rgba(218,37,54,1) 100%);
+	align-items: center;
+	padding: 1%;
+}
+#header-logo{
+	width: 5%;
+	margin-left: 2%;
+
+}
+#header-ul{
+	font-family: 'Oswald', sans-serif;
+	display: flex;
+	list-style: none;
+}
+.header-li{
+	margin-left: 40%;
+	font-size: 160%;
+}
+.header-a{
+	text-decoration: none;
+	color: white;
+	transition: all 0.8s ease-out;
+}
+
+.header-a:hover{
+	color: red;
+	font-size: 101%;
+}
+
+
+footer{
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	background: linear-gradient(114deg, rgba(8,49,255,1) 0%, rgba(130,167,245,1) 40%, rgba(249,225,225,1) 64%, rgba(218,37,54,1) 100%);
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 0.5%;
+}
+#footer-h1{
+	width: 30%;
+	font-size: 120%;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+#footer-section{
+	width: 40%;
+
+}
+.footer-img{
+	width: 10%;
+	margin-left: 5%;
+	transition: all 0.8s ease-out;
+}
+
+.footer-img:hover{
+	transform: scale(1.2);
+}
+
+
+
+
+/*fansite4*/
+#contact-body{
+	background-image: url("https://france3-regions.francetvinfo.fr/hauts-de-france/sites/regions_france3/files/styles/top_big/public/assets/images/2017/06/16/synth-3120391.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#contact-main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+form{
+	padding: 1%;
+	margin:2%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px black;
+	background-color: #f5dedc63;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+
+#contact-titre{
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+.contact-label{
+	display: block;
+	float: left;
+	width: 30%;
+	font-size: 100%;
+	margin:1%;
+	text-align: right;
+}
+.contact-inp{
+	font-size: 100%;
+	margin: 1%;
+	border-radius: 30px;
+	border: none;
+}
+#contact-inp{
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+    border: none;
+    background-color: #ff000054;
+    color: white;
+    width: 30%;
+    font-size: 130%;
+    padding: 1%;
+    margin-top: 2%;
+    transition: all 0.8s ease-out;
+}
+
+#contact-inp:hover{
+	
+    background-color: #0003ff54 ;
+}
+
+}
+#message{
+	border-radius: 15px;
+	border: none;
+	padding-top: 1%;
+}
+
+/*fansite3*/
+#palmares-body{
+	background-image: url("https://i.pinimg.com/originals/f3/42/a5/f342a5ec7ebc28814fd9abc506be962d.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#palmares-main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#palmares-div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.palmares-article{
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px black;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 1%;
+	background-color: #f5dedc63;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+
+}
+.palmares-b{
+	font-size: 130%;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 10%;
+
+
+}
+#palmares-fifa{
+
+}
+.palmares-titre{
+	font-size: 110%;
+	margin-left: 5%;
+}
+.palmares-ul{
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+}
+.palmares-li{
+
+}
+#palmares-img{
+	width: 90%;
+	margin: auto;
+}
+
+#palmares-buteurh1{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px black;
+}
+#palmares-buteur{
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px black;
+	width: 90%;
+	margin-bottom: 1%;
+	background-color: #f5dedc63;
+
+
+}
+.palmares-buteur{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+.palmares-butteurX{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 20%;
+	background-color: #f7492f78;
+	box-shadow: 3px 3px 5px black;
+	margin-bottom: 1%;
+	border-radius: 60%;
+	}
+.palmares-joueur{
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	flex: 1;
+
+}
+.palmares-img-j{
+	width: 30%;
+	flex: 5;
+
+}
+.palmares-année{
+	margin-top: 1%;
+	text-shadow: 1px 1px 1px black;
+	color: white;
+	flex: 1;
+}
+
+/*fansite1*/
+#fansite2-body{
+	background-image: url("https://images6.alphacoders.com/980/980910.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+#fansite1-sec{
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+	justify-content: center;
+
+}
+#fansite1-div{
+	margin: 1%;
+	padding: 1%;
+	background-color: #f5dedc63;
+	border: solid 1px black;
+	border-radius: 10px;
+	box-shadow: 4px 3px 10px black;
+}
+.France{
+	font-family: cursive;
+	color: white;
+}
+
+.FF{
+	text-align: center;
+	color: white;
+}
+
+.lol2{
+	font-family: cursive;
+}
+
+.fond{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	border-radius: 10px;
+}
+@keyframes switch{
+	from{width: 60%;}
+}
+
+to{width: 60%;}
+
+.video{
+	width: 30%;
+	animation-name: switch;
+	animation-duration: 5s;
+	border:solid;
+	border-radius: 15px;
+	box-shadow: 4px 3px 10px black;
+}
+
+
+
+.image{
+	width: 30%;
+	animation-name: switch;
+	animation-duration: 5s;
+	border:solid;
+	border-radius: 15px;
+	box-shadow: 4px 3px 10px black;
+}
+
+.FFF{
+color: white;
+font-family: cursive;
+}
+
+
+/*fansite2*/
+#fansite1-body{
+	margin: 0;
+	background-image: url("https://images3.alphacoders.com/980/thumb-1920-980904.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+#fansite2-main{
+	display: flex;
+	flex-direction: column;
+	background-color: #f5dedc63;
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border: solid 1px black;
+	border-radius: 10px;
+	box-shadow: 4px 3px 10px black;
+}
+
+.photo{
+	width: 32%;
+}
+
+.Galerie{
+	margin: 1%;
+	display: flex;
+	justify-content: space-around;
+}
+.coupe{
+	width: 32%;
+}
+
+.logo{
+	width: 5%;
+	animation: rotation 3s linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0) translateX(0px);
+  }
+  25%{
+    transform: rotate(300deg) translateX(20px);
+  }
+  50%{
+    transform: rotate(320deg) translateX(0px);
+  }
